@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>CO:NNECT</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link href='style.css'rel='stylesheet'>
+</head>
+	<h1><a href="index.html">CO:NNECT</a></h1>
+	<div class="jumbotron">
+		<ul>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Story</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="chapter1.html">Chapter 1</a>
+					<a href="chapter2.html">Chapter 2</a>
+					<a href="chapter3.html">Chapter 3</a>
+					<a href="chapter4.html">Chapter 4</a>
+					<a href="chapter5.html">Chapter 5</a>
+					<a href="chapter6.html">Chapter 6</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">About Us</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#">The Course</a>
+					<a href="#">The Creators</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Contact</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#">Them</a>
+					<a href="#">Us</a>
+				</div>
+			</div>
+		</div>
+	</ul>
+<form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-6">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-6">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-6 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-6 col-sm-offset-2">
+        </div>
+    </div>
+</form>
+<body>	
+</body>
+</html>
