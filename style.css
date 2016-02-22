@@ -1,4 +1,4 @@
-h1 {color: #3699ae;
+h1 {color: ##3699ae;
 }
 /* whole body */
 body { padding-top: 50px;
@@ -22,8 +22,8 @@ display: block;
 .dropbtn {
     background-color: white;
     color: #3699ae;
-    padding: 16px;
-    font-size: 26px;
+    padding: 12px;
+    font-size: 22px;
     font-family: Arial;
     border: none;
     cursor: pointer;
@@ -69,7 +69,16 @@ ul {
 	color: black;
 	list-style: none;
 }
-.megtext {
-    padding-left: 0px;
-    z-index: 1
+.intro {text-align: right;
+color:#3699ae;
+z-index: 10;
+font-size: 16px;
+}
+
+.socialmedia {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
