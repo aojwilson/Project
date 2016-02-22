@@ -9,6 +9,10 @@ body { padding-top: 50px;
 /* headerbar */
 .jumbotron {padding-left: 80px;}
 
+.a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
 /* Dropdown Button */
 .dropdown:hover .dropdown-content {
 display: block;
