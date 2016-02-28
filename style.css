@@ -1,5 +1,6 @@
-h1 {font-family:'Lato', sans-serif;
-color: #33cccc;
+h1 {
+    font-family:'Lato', sans-serif;
+    color: #3699ae;
 }
 /* whole body */
 body { 
@@ -11,9 +12,12 @@ body {
 
     /* headerbar */
     .jumbotron {
-        padding-left: 80px;
+        padding-left: 60px;
         position: relative;
-        z-index: 10;}
+        z-index: 10;
+        background-color: #f2f2f2;
+        height: 10px;
+    }
 
         .a:focus, a:hover {
             color: #33cccc;
@@ -65,19 +69,11 @@ body {
 
     /*MegStory */
 
-    .carousel-caption {
-    text-align: right;
-    color: #3699ae;
-    font-weight: 'Dosis';
-    font-size: 16px;
-    }
 
     /*About us and Contact */
 
-    .jumbotron {
        background-color: #f2f2f2;
        height: 10px;
-   }
 
    ul {
        color: black;
@@ -85,18 +81,20 @@ body {
    }
 
    .intro {
-    text-align: right;
+    text-align: left;
     color:#3699ae;
     z-index: 1000;
     font-size: 20px;
     position: relative;
     margin-right: 20px;
     font-family: 'Dosis', sans-serif;
+    padding-left: 500px;
     =======
     /*Footer*/
 
     .footer {
         background: #f2f2f2;
+        margin-bottom: 2px;
     }
     .socialmedia {
         position: absolute;;
@@ -107,10 +105,11 @@ body {
     }
 
 
-    .megpic {
+    .homephoto {
         z-index: 500;
         position: relative;
         margin-left: 10px;
+        padding-left: 600px;
     }
     .orange {
         color: #ff6600
@@ -119,7 +118,7 @@ body {
     .clickhere {
         z-index:; 250;
     }
-    
+
     =======
     /*map*/
     #map {
