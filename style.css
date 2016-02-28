@@ -71,8 +71,9 @@ ul {
 }
 .intro {text-align: right;
 color:#3699ae;
-z-index: 10;
-font-size: 16px;
+z-index: 1000;
+font-size: 26px;
+position: relative;
 }
 
 .socialmedia {
@@ -81,4 +82,9 @@ font-size: 16px;
     right: 0;
     padding-bottom: 30px;
     padding-right: 30px;
+}
+
+.Meg1 {
+    z-index: 500;
+    position: relative;
 }
