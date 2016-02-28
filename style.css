@@ -115,6 +115,11 @@ body {
     .orange {
         color: #ff6600
     }
+
+    .clickhere {
+        z-index:; 250;
+    }
+    
     =======
     /*map*/
     #map {
