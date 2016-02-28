@@ -106,8 +106,8 @@ body {
         padding-right: 30px;
     }
 
-    <<<<<<< HEAD
-    .pic {
+
+    .megpic {
         z-index: 500;
         position: relative;
         margin-left: 10px;
@@ -121,4 +121,4 @@ body {
         width: 500px;
         height: 400px;
         }  background-color: #CCC;
-        >>>>>>> origin/gh-pages
+
