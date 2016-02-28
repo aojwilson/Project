@@ -63,6 +63,15 @@ body {
 
     .show {display:block;}
 
+    /*MegStory */
+
+    .carousel-caption {
+    text-align: right;
+    color: #3699ae;
+    font-weight: 'Dosis';
+    font-size: 16px;
+    }
+
     /*About us and Contact */
 
     .jumbotron {
