@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>CO:NNECT</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link href='style.css'rel='stylesheet'>
+
+	<!-- GOOGLE FONT FAMILY -->
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+</head>
+	
+<!--TITLE-->
+	<h1><a href="index.html">CO:NNECT</a></h1>
+	
+	<!--DROPDOWN NAVIGATION BAR-->
+	<div class="jumbotron">
+		<ul>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">MEET MEG</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="chapter1.html">Chapter 1</a>
+					<a href="chapter2.html">Chapter 2</a>
+					<a href="chapter3.html">Chapter 3</a>
+					<a href="chapter4.html">Chapter 4</a>
+					<a href="chapter5.html">Chapter 5</a>
+					<a href="chapter6.html">Chapter 6</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">READ</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#">About the Course</a>
+					<a href="#">About the Creators</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">CONTACT</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="them.html">Them</a>
+					<a href="us.html">Us</a>
+				</div>
+			</div>
+		</div>
+	</ul>
+
+	<div id="map"></div>
+	<script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+    <script>
+  function initMap() {
+    var mapDiv = document.getElementById('map');
+    var map = new google.maps.Map(mapDiv, {
+      center: {lat: 44.540, lng: -78.546},
+      zoom: 8
+    });
+  }
+</script>
+   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+<body>	
+</body>
+</html>
