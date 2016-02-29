@@ -130,7 +130,15 @@ li {
     }
 
     .clickhere {
-        z-index:; 250;
+        z-index:; -1;
+    }
+
+    .carousel-caption {
+        color: #3699ae;
+        top: 0;
+    bottom: auto;
+    text-shadow: none;
+    padding-right: 40px;
     }
 
     =======
