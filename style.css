@@ -10,6 +10,12 @@ body {
     padding-bottom: 50px;
     padding-left: 80px;}
 
+p {
+    font-family: 'lato';
+}
+li {
+    font-family: 'lato';
+}
     /* headerbar */
     .jumbotron {
         padding-left: 60px;
@@ -89,7 +95,15 @@ body {
     margin-right: 20px;
     font-family: 'Dosis', sans-serif;
     padding-left: 500px;
-    =======
+    }
+    
+    blockquote {
+        font-family: 'lato';
+    }
+
+    h2 {
+        font-family: 'lato';
+    }
     /*Footer*/
 
     .footer {
